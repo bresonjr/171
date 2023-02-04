@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AR TOY STORE</title>
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+    <script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!---firebase_script---->
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+
+  <!--JS Files-->
+  <script src="./js/addButtons.js"></script>
+  <script src="./js/markerHandler.js"></script>
+  <script src="./js/addMarkers.js"></script>
+
+  <script>
+
+    
+    
+const firebaseConfig = {
+  apiKey: "AIzaSyAZWCD_D8_xIaNCjrBvTSLdedEXmXyFD08",
+  authDomain: "lets-ride-dfed6.firebaseapp.com",
+  databaseURL: "https://lets-ride-dfed6-default-rtdb.firebaseio.com",
+  projectId: "lets-ride-dfed6",
+  storageBucket: "lets-ride-dfed6.appspot.com",
+  messagingSenderId: "1021207090321",
+  appId: "1:1021207090321:web:da8a4ae7f26ae326ae9b30"
+};
+
+
+  </script>
+
+  <!-- Local StyleSheet -->
+  <link href="./style.css" rel="stylesheet" />
+  </head>
+   
+  <body style="margin : 0px; overflow: hidden;">
+    <a-scene vr-mode-ui="enabled: false" 
+             embedded arjs="sourceType: webcam; 
+                            sourceWidth:1280; 
+                            sourceHeight:960; 
+                            displayWidth: 1280; 
+                            displayHeight: 960; 
+                            debugUIEnabled: false;" 
+                            gesture-detector create-markers create-buttons>
+
+      <!-- Camera -->
+      <a-entity camera></a-entity>
+
+    </a-scene>
+
+    <div id="button-div" class="fixed-bottom"></div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Components of Crane
+* source:	https://sketchfab.com/3d-models/components-of-crane-08b8b4f1bb7a46e9892e08bd9517f992
+* author:	Steven Mai (https://sketchfab.com/aptronics)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Components of Crane" (https://sketchfab.com/3d-models/components-of-crane-08b8b4f1bb7a46e9892e08bd9517f992) by Steven Mai (https://sketchfab.com/aptronics) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
